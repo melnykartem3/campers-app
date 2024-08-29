@@ -1,5 +1,5 @@
-// import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from '@reduxjs/toolkit';
 
-// const filtersSlice = createSlice({});
+const filtersSlice = createSlice({});
 
-// export default filtersSlice.reducer;
+export default filtersSlice.reducer;
