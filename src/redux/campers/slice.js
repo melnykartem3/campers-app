@@ -1,5 +1,7 @@
-import { createSelector, createSlice } from '@reduxjs/toolkit';
+// import { createSelector, createSlice } from '@reduxjs/toolkit';
 
-const camperSlice = createSlice({});
+// const camperSlice = createSlice({
+//   name: 'camper',
+// });
 
-export default camperSlice.reducer;
+// export default camperSlice.reducer;

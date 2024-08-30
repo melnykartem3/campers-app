@@ -1,0 +1,37 @@
+.header {
+  padding: 24px 64px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f2f4f7;
+  background-color: #f7f7f7;
+}
+
+.navigation {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 32px;
+}
+
+.logoLink {
+  position: absolute;
+  left: 0;
+  width: 136px;
+  height: 16px;
+}
+
+.navLink {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #101828;
+}
+
+.activeLink {
+  color: #d84343;
+}
