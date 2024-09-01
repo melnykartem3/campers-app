@@ -1,0 +1,137 @@
+.camperWrapper {
+  display: flex;
+}
+
+.camperPhoto {
+  border-radius: 10px;
+  margin-right: 24px;
+}
+
+.firstWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.camperName {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  color: #101828;
+}
+
+.auxiliaryWrapper {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.camperPrice {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  color: #101828;
+}
+
+.secondWrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.ratingIcon {
+  margin-right: 4px;
+  color: #ffc531;
+}
+
+.camperRating {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #101828;
+  margin-right: 16px;
+  border-bottom: 1px solid #101828;
+  padding-bottom: 1px;
+}
+
+.locationIcon {
+  margin-right: 4px;
+  color: #101828;
+}
+
+.camperLocation {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #101828;
+}
+
+.camperDescription {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #475467;
+  margin-bottom: 24px;
+}
+
+.accessoriesList {
+  display: flex;
+  list-style-type: none;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.accessoriesListItem {
+  border-radius: 100px;
+  padding: 12px 18px;
+  max-width: 143px;
+  height: 48px;
+  background-color: #f2f4f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #101828;
+}
+
+.accessoriesIcon {
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+.defaultIcon {
+  cursor: pointer;
+  transition: color 0.3s;
+  color: #101828;
+  width: 26px;
+  height: 24px;
+}
+
+.favouriteIcon {
+  color: #e44848;
+}
+
+.showMoreBtn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  border-radius: 200px;
+  width: 166px;
+  height: 56px;
+  margin-top: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #e44848;
+}
+
+.showMoreBtn:hover,
+.showMoreBtn:focus {
+  background-color: #d84343;
+}

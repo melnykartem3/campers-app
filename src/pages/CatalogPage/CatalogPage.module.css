@@ -1,0 +1,33 @@
+.catalogPageWrapper {
+  display: flex;
+  padding-top: 48px;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.btnWrapper {
+  padding-left: 860px;
+}
+
+.loadMoreBtn {
+  border-radius: 200px;
+  width: 145px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  letter-spacing: -0.01em;
+  margin-bottom: 52px;
+  transition: border 0.3s ease;
+  border: 1px solid #dadde1;
+  color: #101828;
+}
+
+.loadMoreBtn:hover,
+.loadMoreBtn:focus {
+  border: 1px solid #d84343;
+}
